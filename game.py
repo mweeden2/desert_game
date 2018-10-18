@@ -1,6 +1,7 @@
 # import classes as c
 import gen_methods as gm
 # import an_methods as am
+import walk_texts as ws
 
 import sys
 
@@ -8,6 +9,7 @@ WIDTH = 120
 HEIGHT = 30
 TIMEOUT = 100
 
+WT_SET = list(ws.walk_text)
 
 def main():
 
@@ -33,12 +35,13 @@ def play(p1, debug=False):
         if command in ['q', 'quit', 'exit']:
             break
 
-        elif command in ['walk']:
-            print 'here'
+        elif command in ['w', 'walk']:
+            if p1.r.randint(0, 9) == 0:
+                wt = p1.r.choice(WT_SET)
+                WT_SET.remove(wt)
             p1.update('walk')
-            print 'you\'ve walked forward'
 
-        elif command in ['status']:
+        elif command in ['s', 'status']:
             p1.prettyPrint()
 
 if __name__ == "__main__":
