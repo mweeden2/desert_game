@@ -19,10 +19,8 @@ def __init__(self, mainp, name, weight, health, stamina, xp):
         if s == "walk":
             i = self.r.randint(0, 9)
             if i > 7:
-                print 'ye'
                 self.update("stamina", -2)
             elif i > 2:
-                print 'yep'
                 self.update("stamina", -1)
 
         # attribute updates
