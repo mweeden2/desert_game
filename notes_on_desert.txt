@@ -1,0 +1,37 @@
+Notes about "Desert" game
+
+intro line:
+
+John, you must listen to me. Meet me at Elenmen.
+You'll get there. Just don't stop looking.
+
+
+
+
+
+story elements:
+
+	John starts randomly? on one end of the desert
+	John travels through the desert to get to Elenmen
+
+questions:
+
+	map
+		auto-generate?
+			- maybe not at first
+		have a visual?
+		how big? should finding places be a part of the challenge?
+
+
+	game play
+		what's it mainly about doing?
+			walking, talking, collecting, learning
+				- maybe more difficult
+			
+
+
+
+
+walk texts:
+
+    You nearly trip as the previously formless ground under your feet is switched with a stone bed over which the sand is a beady sheet. You're feet and ankles feel much better this way.
